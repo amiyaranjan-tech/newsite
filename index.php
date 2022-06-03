@@ -41,6 +41,10 @@ if(isset($_POST['name'])){
 }
 ?>
 
+<style>
+  <?php include "style.css" ?>
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +58,7 @@ if(isset($_POST['name'])){
     <img class="bg" src="bg.jpg" alt="bookkeed">
     <div class="container">
         <h1>Welcome to bookkeed</h3>
-        <p>Enter your details and submit this form to confirm your membership</p>
+        <p>submit this form to confirm your membership</p>
         <?php
         if($insert == true){
         echo "<p class='submitMsg'>Thanks for submitting your form, happy learning</p>";
@@ -74,3 +78,6 @@ if(isset($_POST['name'])){
     
 </body>
 </html>
+
+
+

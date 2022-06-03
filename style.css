@@ -10,7 +10,6 @@ font-family: 'Roboto', sans-serif;
     max-width: 80%; 
     padding: 34px; 
     margin: auto;
-    
 }
 
 .container h1 {
@@ -23,7 +22,7 @@ p{
     font-size: 25px;
     text-align: center;
     font-family: 'Sriracha', cursive;
-    background: rgb(153, 129, 129);
+    background: brown;
 }
 
 input, textarea{
@@ -45,7 +44,7 @@ form{
 
 .btn{
     color: white;
-    background: rgb(153, 129, 129);
+    background: brown;
     padding: 8px 12px;
     font-size: 20px;
     border: 2px solid white;
@@ -57,8 +56,9 @@ form{
     width: 100%;
     position: absolute;
     z-index: -1;
-    opacity: 1;
+    opacity: 1.0;
 }
 .submitMsg{ 
     color: green;
 }
+
